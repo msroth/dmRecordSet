@@ -1,0 +1,35 @@
+VERSIONS
+---------
+
+
+
+1.0 - date
+-----------
+- first public release
+
+
+
+1.1 - date
+----------
+- bug fixes
+
+
+
+1.2 - Nov 2013
+--------------
+- added getRecordSetAsList() method - returns the record set as a Java List
+- added getRecordSetAsSet() method - returns the record set as a Java Set (contains only unique objects)
+- added getRecordSetInfo() method - returns a String of stats about record set
+- added getRowCount() - returns number of rows in record set
+- added getColumnCount() - returns number of columns in record set
+- added static getVersion() - returns version information for class
+- changed getRow() to issue DfLogger statement if invalid row requested, instead of throwing exception
+- Deprecated first(), replaced with getFirstRow()
+- Deprecated last(), replaced with getLastRow()
+- Deprecated next(), replaced with getNextRow()
+- Deprecated getRow(), replaced with getCurrentRow()
+- Deprecated previous(), replaced with getPreviousRow()
+- Deprecated resetBeginning(), replaced with resetToBeginning()
+- Deprecated resetEnd(), replaced with resetToEnd() 
+- getNextRow() and getPreviousRow() use getRow()
+- updated CollectionExamples test class
