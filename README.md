@@ -21,3 +21,4 @@ The dmRecordSet provides the following methods:
 * public int getCurrentRowNumber() => get the location of the current row pointer
 * public void resetToBeginning() => reset row pointer to the beginning of the file
 * public void resetToEnd() => reset the row pointer to the end of the file
+
